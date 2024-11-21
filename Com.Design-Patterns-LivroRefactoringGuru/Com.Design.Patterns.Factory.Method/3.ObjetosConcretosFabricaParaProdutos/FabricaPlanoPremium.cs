@@ -3,7 +3,7 @@ using Com.Design.Patterns.Factory.Method._2.Criadores;
 using Com.Design.Patterns.Factory.Method._4.ProdutosConcretos;
 
 namespace Com.Design.Patterns.Factory.Method._3._CriadoresConcretos;
-
+// Fabrica que emcapsula a Regra do Plano Premium
 public class FabricaPlanoPremium : FabricaDePlanos
 {
     public override IAssinaturas FactoryMethod()
