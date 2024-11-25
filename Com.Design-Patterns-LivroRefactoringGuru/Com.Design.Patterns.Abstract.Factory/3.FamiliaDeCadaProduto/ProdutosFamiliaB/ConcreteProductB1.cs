@@ -1,0 +1,19 @@
+using Com.Design.Patterns.Abstract.Factory._3.FamiliaDeCadaProduto.Interface;
+
+// Os produtos de concreto são criados pelas fábricas de concreto correspondentes.
+namespace Com.Design.Patterns.Abstract.Factory._3.FamiliaDeCadaProduto.ProdutosFamiliaB;
+
+public class ConcreteProductB1 : IAbstractProductB
+{
+    public string UsefulFunctionB()
+    {
+        return "The result of the product B1.";
+    }
+
+    public string AnotherUsefulFunctionB(IAbstractProductA collaborator)
+    {
+        var result = collaborator.UsefulFunctionA();
+
+        return $"The result of the B1 collaborating with the ({result})";
+    }
+}
