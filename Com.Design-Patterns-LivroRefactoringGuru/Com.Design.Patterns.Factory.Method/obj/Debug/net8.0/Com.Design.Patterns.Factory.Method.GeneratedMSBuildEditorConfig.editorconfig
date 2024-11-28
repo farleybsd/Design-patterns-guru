@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Com.Design.Patterns.Factory.Method
-build_property.ProjectDir = C:\Git\Design-patterns-guru\Com.Design-Patterns-LivroRefactoringGuru\Com.Design.Patterns.Factory.Method\
+build_property.ProjectDir = C:\Estudos\git\Design-patterns-guru\Com.Design-Patterns-LivroRefactoringGuru\Com.Design.Patterns.Factory.Method\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
